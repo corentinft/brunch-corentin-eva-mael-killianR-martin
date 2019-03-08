@@ -1,0 +1,29 @@
+{
+  "name": "brunch-app",
+  "description": "Brunch.io application",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
+    "css-brunch": "^2.10.0",
+    "imageoptmizer-brunch": "0.0.6",
+    "javascript-brunch": "^2.10.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.0.6",
+    "babel-preset-latest": "^6",
+    "brunch": "^2",
+    "clean-css-brunch": "^2.10.0",
+    "eslint-brunch": "^3.12.0",
+    "sass-brunch": "^2.10.8",
+    "sass-lint-brunch": "^1.1.0",
+    "uglify-js-brunch": "^2.10.0"
+  }
+}
